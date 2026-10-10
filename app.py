@@ -77,9 +77,6 @@ def auth_screen():
                     else:
                         st.error("❌ Invalid Username or Password! Please try again or create an account.")
 
-                st.divider()
-                st.caption("💡 Default Demo Account: Username: 'admin' | Password: '123'")
-
         # --- TAB 2: CREATE NEW ACCOUNT ---
         with auth_tab2:
             with st.container(border=True):
